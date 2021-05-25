@@ -14,7 +14,7 @@ mongoose
       useCreateIndex: true,
     })
     .then(() => {
-      console.log('mongodb connected');
+      console.log('mongodb connected and running');
     })
     .catch((err) => {
       throw err;
